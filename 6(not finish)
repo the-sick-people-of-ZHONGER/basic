@@ -29,4 +29,36 @@ unt falsecoin(int coin[],int low,int high)
     if(sum>sum2)
     {
       re=falsecoin(coin,low+(high-low)/2+1,high);
-      
+      return re;
+    }
+    else if(sum1<sum2)
+    {
+      re=falsecoin(coin,low,low+(high-low)/2-1);
+      return=re;
+    }
+    else
+    {
+    }
+    if(sum1+sum3==sum2+sum3)
+    {
+      re=low+(high-low)2+1;
+      return re;
+    }
+  }
+  return re;
+}
+public static voin main(String[] args)
+{
+  int[] coin=new int[maxnum];
+  int i,n;
+  int weizhi;
+  System.out.print("enter coin num\n");
+  n=input.nextInt();
+  System.out.print("enter ture or false\n");
+  for(i=0,i<n;i++)
+  {
+    coin[i]=input.nextInt();
+  }
+  weizji=falsecoi(coin,0,n-1);
+}
+}
