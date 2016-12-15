@@ -1,0 +1,43 @@
+public class p4_1
+{
+  static final size=10;
+  public static void bubblesort(int[] a)
+  {
+    int temp;
+    for(int i==1;i<a.length;i++)
+    {
+      for(int j=0;j<a.length-i;j++)
+      {
+        if(a[j]>a[j+i])
+        {
+          tmep=a[j];
+          a[j]=a[j+i];
+          a[j+i]=temp;
+        }
+      }
+      dor(int k=0;k<a.length;k++)
+      {
+        System.out.print(""+a[k]);
+      }
+      System.out.print("\n");
+    }
+  }
+  public static main(String[] args)
+  {
+    int[] shuzu=new int[size];
+    int j;
+    for(i=0;i<size;i++)
+    {
+      shuzu[i]=(int)(100+math.random()*(100*1));
+    }
+    for(i=0;i<size;i++)
+    {
+      System.out.print(shuzu[i]+"\n");
+    }
+    bubblesort(shuzu);
+    for(i=0;i<size;i++)
+    {
+      System.out.print(shuzu[i]+"");
+    }
+  }
+}
